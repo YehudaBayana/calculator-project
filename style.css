@@ -71,6 +71,7 @@ body {
 .button.c {
   color: #d95d4e;
   background: #404d5e;
+  width: 75%;
 }
 
 .button:hover {
