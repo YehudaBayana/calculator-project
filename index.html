@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calc-body">
+        <div class="calc-screen">
+          <div class="calc-typed">
+            <span class="blink-me" id="theInput"></span>
+          </div>
+          <div class="calc-operation" id="theSecondInput"></div>
+        </div>
+        <div class="calc-button-row">
+          <div id="c" class="button c">C</div>
+          <div class="button l">≠</div>
+          <div class="button l">%</div>
+          <div id="division" class="button l">/</div>
+        </div>
+        <div class="calc-button-row">
+          <div class="button" onclick="numberInput(7)">7</div>
+          <div class="button" onclick="numberInput(8)">8</div>
+          <div class="button" onclick="numberInput(9)">9</div>
+          <div id="multiply" class="button l">x</div>
+        </div>
+        <div class="calc-button-row">
+          <div class="button" onclick="numberInput(4)">4</div>
+          <div class="button" onclick="numberInput(5)">5</div>
+          <div class="button" onclick="numberInput(6)">6</div>
+          <div id="minus" class="button l">−</div>
+        </div>
+        <div class="calc-button-row">
+          <div class="button" onclick="numberInput(1)">1</div>
+          <div class="button" onclick="numberInput(2)">2</div>
+          <div class="button" onclick="numberInput(3)">3</div>
+          <div id="add" class="button l">+</div>
+        </div>
+        <div class="calc-button-row">
+          <div class="button" onclick="numberInput('.')">.</div>
+          <div class="button" onclick="numberInput(0)">0</div>
+          <div class="button">></div>
+          <div id="result" class="button l">=</div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
